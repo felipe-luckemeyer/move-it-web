@@ -2,7 +2,7 @@ import { useState, createContext, ReactNode, useEffect } from 'react';
 import Cookies from 'js-cookie';
 import { AnimatePresence } from 'framer-motion';
 import challenges from '../../challenges.json';
-import { LevelUpModal } from '../components/LevelUpModal';
+import { LevelUpModal } from '../components';
 
 interface Challenge {
   type: 'body' | 'eye';
