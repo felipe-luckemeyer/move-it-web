@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { motion } from 'framer-motion';
 import { ChallengesContext } from '../contexts/ChallengesContext';
 import styles from '../styles/components/ExperienceBar.module.css';
 
@@ -11,7 +12,7 @@ export function ExperienceBar() {
     <header className={styles.experienceBar}>
       <span>0 xp</span>
       <div>
-        <div style={{ width: `${percentToNextLevel}%` }} />
+        <motion.div layout style={{ width: `${percentToNextLevel}%` }} />
         <span className={styles.currentExperience} style={{ left: `${percentToNextLevel}%` }}>
           {currentExperience} xp
         </span>
