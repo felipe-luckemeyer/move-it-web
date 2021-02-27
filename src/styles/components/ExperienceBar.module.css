@@ -8,6 +8,8 @@
 }
 
 .experienceBar > div {
+  display: flex;
+  align-items: center;
   flex: 1;
   height: 4px;
   border-radius: 4px;
