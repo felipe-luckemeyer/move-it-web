@@ -7,7 +7,7 @@ interface LevelUpProps {
   close: () => void;
 }
 
-export function LevelUpModal(props: LevelUpProps) {
+export default function LevelUpModal(props: LevelUpProps) {
   const { level } = useContext(ChallengesContext);
 
   return (

@@ -1,13 +1,14 @@
-import { CompletedChallenges } from '../components/CompletedChalleges';
-import { Countdown } from '../components/Countdown';
-import { ExperienceBar } from '../components/ExperienceBar';
-import { Profile } from '../components/Profile';
-
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
 import styles from '../styles/pages/Home.module.css';
-import { ChallengeBox } from '../components/ChallengeBox';
+import {
+  ChallengeBox,
+  CompletedChallenges,
+  Countdown,
+  ExperienceBar,
+  Profile,
+} from '../components';
 import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
 
