@@ -1,14 +1,14 @@
 import { useContext } from 'react';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
+import { formatTime } from '../utils';
 
 export default function Countdown() {
   const { minutes, seconds, hasFinished, isActive, resetCountdown, startCountdown } = useContext(
     CountdownContext
   );
-
-  const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
-  const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
+  const [minuteLeft, minuteRight] = formatTime(minutes);
+  const [secondLeft, secondRight] = formatTime(seconds);
 
   return (
     <div>

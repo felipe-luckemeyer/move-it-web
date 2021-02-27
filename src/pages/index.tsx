@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
 import styles from '../styles/pages/Home.module.css';
@@ -8,6 +7,7 @@ import {
   Countdown,
   ExperienceBar,
   Profile,
+  HeadTitle,
 } from '../components';
 import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
@@ -20,13 +20,10 @@ export default function Home(props) {
       challengesCompleted={props.challengesCompleted}
     >
       <div className={styles.container}>
-        <Head>
-          <title>Início | move.it</title>
-        </Head>
-
         <ExperienceBar />
 
         <CountdownProvider>
+          <HeadTitle />
           <section>
             <div>
               <Profile />
