@@ -1,10 +1,12 @@
-## Moveit
+## Move.it
 
-Moveit is perfectly for more productivity in your week! With some elements about gamification, challenges and moments to rest, this project can be used to turn computer utilization healthier.
-
-Developed in the Next Level Week 4#(NLW) event and following the ReactJS trail.
+Move.it is perfectly for more productivity in your week! With some elements about gamification, challenges and moments to rest, this project can be used to turn computer utilization healthier.
 
 ![](/public/readme/moveit-capa.png)
+
+![](/public/readme/moveit-challenge.png)
+
+![](/public/readme/moveit-levelup.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
