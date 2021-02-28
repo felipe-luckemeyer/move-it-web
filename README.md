@@ -4,9 +4,23 @@ Move.it is perfectly for more productivity in your week! With some elements abou
 
 ![](/public/readme/moveit-capa.png)
 
-![](/public/readme/moveit-challenge.png)
+### Productivity
 
-![](/public/readme/moveit-levelup.png)
+Control your time with a tab and know how musch time remains of productivity
+
+![](/public/readme/moveit-produtivity.png)
+
+### Challenges and rest
+
+Know when is time to rest and complete challenges
+
+![](/public/readme/moveit-rest.png)
+
+### Gamefication
+
+Gamefication for turn this process cooler
+
+![](/public/readme/moveit-challenge.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
