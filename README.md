@@ -18,7 +18,7 @@ Know when is time to rest and complete challenges
 
 ### Gamefication
 
-Gamefication for turn this process cooler
+Gamefication for turn this process coolest
 
 ![](/public/readme/moveit-challenge.png)
 
