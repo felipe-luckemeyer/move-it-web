@@ -6,11 +6,11 @@ Move.it is perfectly for more productivity in your week! With some elements abou
 
 ### Productivity
 
-Control your time with a tab and know how musch time remains of productivity
+Control how much remains of your productivity time
 
 ![](/public/readme/moveit-produtivity.png)
 
-### Challenges and rest
+### Rest and Challenges
 
 Know when is time to rest and complete challenges
 

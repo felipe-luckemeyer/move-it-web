@@ -12,7 +12,7 @@ export default function HeadTitle() {
     return (
       <Head>
         <title>
-          ⏱ Bora produzir | {minuteLeft}
+          ⏱ Boraa | {minuteLeft}
           {minuteRight}:{secondLeft}
           {secondRight}
         </title>
@@ -22,7 +22,7 @@ export default function HeadTitle() {
   if (hasFinished)
     return (
       <Head>
-        <title>🍃 Relaxe e faça seu desafio </title>
+        <title>🍃 Relaxe</title>
       </Head>
     );
 
