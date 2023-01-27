@@ -6,19 +6,19 @@ Move.it is perfectly for more productivity in your week! With some elements abou
 
 ### Productivity
 
-Control how much remains of your productivity time
+Control how much remains of your productivity time!
 
 ![](/public/readme/moveit-produtivity.png)
 
 ### Rest and Challenges
 
-Know when is time to rest and complete challenges
+Know when is time to rest and complete challenges!
 
 ![](/public/readme/moveit-rest.png)
 
 ### Gamefication
 
-Gamefication for turn this process coolest
+Gamefication for turn this process coolest!
 
 ![](/public/readme/moveit-challenge.png)
 
